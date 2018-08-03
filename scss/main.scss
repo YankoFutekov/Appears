@@ -1,0 +1,77 @@
+$primary-color: #f8eee7;
+$primary-color-light: lighten($primary-color, 15);
+$primary-color-dark: darken($primary-color, 15);
+
+$secondary-color: #eac67a;
+$secondary-color-light: lighten($secondary-color, 15);
+$secondary-color-dark: darken($secondary-color, 15);
+
+$header-bg: url(/img/gallery/trianglify.png);
+$header-height: 300px;
+
+@for $index from 2 through 6 {
+  h#{$index} {
+    font-family: Verdana, Geneva, sans-serif;
+    color: darken(#c0b283, 15) !important;
+  }
+}
+
+.side-nav {
+  background-color: #dcd0c0;
+}
+p,
+a,
+h1 {
+  font-family: Verdana, Geneva, sans-serif;
+  color: #373737 !important;
+}
+
+.row-1,
+.row-3 {
+  background-color: #dcd0c0;
+}
+
+.card-title {
+  color: darken(#c0b283, 15) !important;
+}
+body {
+  background: $primary-color;
+  color: set-text-color($primary-color);
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+main {
+  flex: 1 0 auto;
+}
+.main-header {
+  background: $header-bg;
+  height: $header-height;
+  max-width: 100%;
+  margin-bottom: 30px;
+  h1 {
+    margin: 0;
+    padding-top: 30px;
+  }
+}
+.img-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 300px;
+}
+
+.card-content {
+  color: $primary-color;
+}
+.page-footer {
+  background: $primary-color-dark;
+}
+.modal {
+  color: $primary-color;
+}
+.row-1,
+.row-2,
+.row-3 {
+  opacity: 0;
+}

@@ -1,0 +1,74 @@
+h2 {
+  font-family: Verdana, Geneva, sans-serif;
+  color: #a39153 !important; }
+
+h3 {
+  font-family: Verdana, Geneva, sans-serif;
+  color: #a39153 !important; }
+
+h4 {
+  font-family: Verdana, Geneva, sans-serif;
+  color: #a39153 !important; }
+
+h5 {
+  font-family: Verdana, Geneva, sans-serif;
+  color: #a39153 !important; }
+
+h6 {
+  font-family: Verdana, Geneva, sans-serif;
+  color: #a39153 !important; }
+
+.side-nav {
+  background-color: #dcd0c0; }
+
+p,
+a,
+h1 {
+  font-family: Verdana, Geneva, sans-serif;
+  color: #373737 !important; }
+
+.row-1,
+.row-3 {
+  background-color: #dcd0c0; }
+
+.card-title {
+  color: #a39153 !important; }
+
+body {
+  background: #f8eee7;
+  color: set-text-color(#f8eee7);
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column; }
+
+main {
+  flex: 1 0 auto; }
+
+.main-header {
+  background: url(/img/gallery/trianglify.png);
+  height: 300px;
+  max-width: 100%;
+  margin-bottom: 30px; }
+  .main-header h1 {
+    margin: 0;
+    padding-top: 30px; }
+
+.img-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 300px; }
+
+.card-content {
+  color: #f8eee7; }
+
+.page-footer {
+  background: #e7c4ac; }
+
+.modal {
+  color: #f8eee7; }
+
+.row-1,
+.row-2,
+.row-3 {
+  opacity: 0; }
